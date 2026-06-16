@@ -21,6 +21,8 @@ function createWindow(): void {
   mainWindow.on('ready-to-show', () => {
     mainWindow.show()
   })
+
+  
 }
 
 // Quit when all windows are closed, except on macOS. There, it's common
