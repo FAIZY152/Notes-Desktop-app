@@ -1,4 +1,4 @@
-/is dev env
+/is dev
 export function isDev(){
     return process.env.NODE_ENV='development'
 }
